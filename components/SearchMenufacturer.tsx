@@ -34,7 +34,7 @@ const SearchMenufacturer = ({manufacturer,setManuFacturer} : SearchMenufacturerP
                 <Combobox.Input
                     className="search-manufacturer__input"
                     placeholder='volkswagen'
-                    displayValue={(manufacturer : String) => manufacturer}
+                    displayValue={(manufacturer : string) => manufacturer}
                     onChange={(e) => setQuery(e.target.value)}
                 />
                 <Transition
